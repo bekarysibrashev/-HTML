@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+html, body{
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+/* Header */
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.header{
+    background-image: url(/assets/img/main.jpg);
+    width: 100%;
+    height: 650px;
+    
+
+}
+
+header{
+    width: 100%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    text-align: center;
+    line-height: 20px;
+    padding: 20px;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h6{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.number{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.num_btn{
+    font-size: 12px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5%;
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+/* service */
+
+.service{
+    text-align: end;
+    line-height: 60px;
+    color: white;
+    
+}
+
+h1{
+    font-size: 42px;
+}
+
+h3{
+    font-size: 23px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-left: auto;
+    margin-top: 50px;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.icon{
+    margin-top: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+.consult_btn{
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.consultation_text{
+    display: flex;
+    justify-content: end;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.consultation_text h6{
+    font-size: 16px;
+    text-decoration: underline;
+    
+}
+
+
+/* Advantages */
+
+.advantages{
+    display: flex;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-size: 20px;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #F6F6F6;   
+}
+
+#advantages h2{
+    text-align: center;
+    padding: 50px;
+}
+
+.advantages p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.advantages h3{
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.advantages a{
+    color: red;
+}
+
+#advantages{
+    height: 465px;
+    background-color: #F6F6F6;
+}
+
+.shoe{
+    margin-right: 130px;
+}
+
+/* consultation */
+
+.free_consultation{
+    background-image: url(/assets/img/consultation.jpg);
+    width: 100%;
+    height: 680px;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+
+}
+
+.consult_text{
+    text-align: left;
+    color: white;
+    padding: 70px;
+
+
+}
+
+.consult_text h2{
+    font-size: 36px;
+    line-height: 68px;
+}
+
+.consult_text h4{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 30px;
+    font-weight: 400 ;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.consult_btn{
+    width: 335px;
+    height: 50px;
+    font-weight: 400 ;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+
+/* три товара */
+
+#strelka{
+    width: 50px;
+    height: 50px;
+    margin: 200px 0;
+
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.tovar{
+    width: 790px;
+    height: 560px;
+}
+
+
+
+
+/* Отзывы */
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+}
+
+.Irina, .ivan, .julia{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.julia{
+    margin-top:75px;
+}
+
+.description{
+    color: #0D0D0D;
+}
+
+.description h3{
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.description h5{
+    font-weight: 300;
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #646464;
+}
+
+.description p{
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+/* Каталоги */
+.category{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.knopkalar{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#activeknopka{
+    width: 220px;
+	height: 50px;
+	transform: skew(-20deg);
+	background: rgb(199,1,1);
+    border-style: none;
+    color: white;
+    font-size:18px;
+    margin: 0 5px 0 5px;
+}
+
+#knopka{
+    font-size:18px;
+    width: 220px;
+	height: 50px;
+    transform: skew(-20deg);
+    margin: 0 5px 0 5px;
+    color: rgb(107,107,107);
+    background-color: white;
+    border: solid 2px rgb(208, 208, 208);
+}
+
+#knopka:hover, #activeknopka:hover{
+    /* box-shadow: 10px 10px 1px red; */
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgb(155, 36, 36));
+}
+
+
+.card-wrap{
+    display: flex;
+    flex-direction: column;
+    width:940px;
+    margin: auto;
+}
+
+.set-cards{
+    display: flex;
+}
+
+.details{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.details a{
+    color: red;
+    font-size: 14px;
+}
+
+
+.card{
+    width: 300px;
+    height: 410px;
+    border: solid 4px rgb(232,232,232);
+    margin: 10px;
+    padding: 20px;
+    color: #212529;
+}
+
+.card p{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 21px;
+}
+
+.card h3{
+    font-size: 16px;
+}
+
+
+.price{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.oldprice{
+    font-size: 14px;
+    text-align: start;
+}
+
+.newprice{
+    font-size: 20px;
+}
+
+.buy{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(199,1,1);
+    color: white;
+    border-radius: 5px;
+    line-height: 40px;
+}
+
+.buy h3{
+
+    font-size: 14px
+}
+
+/* Отзывы */
+
+.otzuvy{
+    margin: 145px 0 0 0;
+}
+
+.otzuvy h1{
+    text-align: center;
+
+}
+
+.description{
+    margin-left: 50px;
+}
+
+.icons{
+    display: flex;
+}
+
+.linkicon{
+    width: 25px;
+    height: 25px;
+    bo
+}
+
+.map{
+    width: 100%;
+}
+
+.redcube{
+    color: white;
+    position: absolute; 
+    left: 530px;    
+    width: 460px;
+    height: 270px;
+    background-color: rgb(199, 1, 1)
+}
+
+.redcube h3{
+    font-weight: 100;
+}
+
+
+
+.catalog-item__list{
+    display: none;
+}
+
+.catalog-item__list_avtive{
+    display: block;
+}
